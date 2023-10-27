@@ -6,7 +6,7 @@
 from myapp.models import User, Book
 
 # 1.
-user = User.objects.get(username="user123@example.com")
+user = User.objects.get(username="skokado")
 
 # 2.
 books = Book.objects.filter(
@@ -18,7 +18,7 @@ books = Book.objects.filter(
 ```sql
 -- 1.
 SELECT * FROM users
-WHERE username = 'user123@example.com';
+WHERE username = 'skokado';
 
 -- 2.
 SELECT *
