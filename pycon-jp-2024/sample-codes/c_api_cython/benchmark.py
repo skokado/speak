@@ -11,7 +11,7 @@ import cymodule
 def py_l2norm(array: np.ndarray) -> float:
     double_total = 0
     for c in array:
-        double_total = c ** 2
+        double_total += c ** 2
 
     return math.sqrt(double_total)
 
