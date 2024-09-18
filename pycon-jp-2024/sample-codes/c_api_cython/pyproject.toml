@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cymodule"
+version = "1.0"
+description = "A simple code using Py_ABS using Cython."
+requires-python = ">=3.9"
