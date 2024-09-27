@@ -4,7 +4,7 @@ Pythonの標準モジュール re と Rust の正規表現処理の性能比較�
 
 ```sh
 $ cd re_with_rust
-$ pip3 install .
+$ python3 -m pip install .
 
 $ python3 benchmark.py 
 Python Avg:     3.17 μs/call

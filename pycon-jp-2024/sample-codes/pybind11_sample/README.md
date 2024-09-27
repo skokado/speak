@@ -2,7 +2,7 @@
 
 ```sh
 cd pybind11_sample
-pip3 install .
+python3 -m pip install .
 ```
 
 ```python
