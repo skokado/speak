@@ -15,6 +15,10 @@ $ sudo apt install -y libpython3.12-dev clang libomp-dev
 
 ```sh
 python3 -m pip install . --force-reinstall --compile
+
+# Build Rust binding
+cd ../myrustlib
+python3 -m pip install .
 ```
 
 ```python

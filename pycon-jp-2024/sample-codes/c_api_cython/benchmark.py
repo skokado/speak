@@ -6,6 +6,7 @@ import numpy as np
 from tqdm import tqdm
 
 import cymodule
+import myrustlib
 
 
 def py_l2norm(array: np.ndarray) -> float:
@@ -47,8 +48,15 @@ if __name__ == "__main__":
         cymodule.l2norm_with_gil(arr)
     time_cy_gil = round(time.time() - start, 3)
 
+    print("--- 4. myrustlib.l2norm")
+    start = time.time()
+    for i in tqdm(range(N_MAX)):
+        myrustlib.l2norm(arr)
+    time_rustlib = round(time.time() - start, 3)
+
     print(f"{N_MAX=},{array_length=}")
     print("\nDuration:")
     print(f"py_l2norm                : {time_py} sec")
     print(f"cymodule.l2norm          : {time_cy} sec")
     print(f"cymodule.l2norm_with_gil : {time_cy_gil} sec")
+    print(f"myrustlib.l2norm         : {time_rustlib} sec")
