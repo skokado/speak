@@ -23,7 +23,7 @@ impl User {
         self.age
     }
 
-    pub fn get_angry(&self) -> PyResult<()> {
+    pub fn raise_angry(&self) -> PyResult<()> {
         let msg = format!("User {} got angry🙄", self.name);
         Err(UserGotAngryException::new_err(msg))
     }

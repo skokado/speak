@@ -10,7 +10,7 @@ user.greet()
 print(user.get_age())
 # => 34
 
-user.get_angry()
+user.raise_angry()
 # Traceback (most recent call last):
 # ...
 # myrustlib.UserGotAngryException: User skokado got angry🙄
