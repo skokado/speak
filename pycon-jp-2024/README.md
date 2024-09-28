@@ -4,7 +4,7 @@ https://2024.pycon.jp/ja
 
 Title『Rustを活用したPythonライブラリの開発』
 
-[資料 (Google スライド)](https://docs.google.com/presentation/d/1XJvbkwfhVvmOb-PAOr6paHhAvo6LC0GGRen-uM2rhBw/edit?usp=sharing)
+[資料 (Google スライド)](https://docs.google.com/presentation/d/e/2PACX-1vRMGuyfGnOLgwNIxLufLLLh7VjY3jSNgS66v7I8yE2HWR3gSyM6uvPFlRSMXPXcfMeoPCToQH0X4uY4/pub?start=false&loop=false&delayms=3000)
 
 このリポジトリのサンプルコードを実行するには C/C++, Python, Rust のツール群が必要です。
 
