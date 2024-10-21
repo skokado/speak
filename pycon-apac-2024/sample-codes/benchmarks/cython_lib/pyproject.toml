@@ -1,0 +1,9 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cython_lib"
+version = "1.0"
+description = "Benchmark sample using Cython"
+requires-python = ">=3.9"
