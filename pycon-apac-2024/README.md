@@ -12,7 +12,7 @@ Please prepare following tools to run sample codes in this workspace.
 - Python +3.12
 - rustup
 
-rustup document: https://www.rust-lang.org/ja/tools/install
+rustup document: https://www.rust-lang.org/tools/install
 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
