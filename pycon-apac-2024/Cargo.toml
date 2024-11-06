@@ -1,5 +1,6 @@
 [workspace]
 members = [
+    "sample-codes/benchmarks/rust_lib",
     "sample-codes/myrustlib",
 ]
 resolver = "2"
