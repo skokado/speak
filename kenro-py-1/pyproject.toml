@@ -9,3 +9,13 @@ dependencies = [
     "django>=5.2,<6",
     "django-ninja>=1.5.0",
 ]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "my_proj.settings.base"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+    "pytest-django>=4.11.1",
+    "ruff>=0.14.5",
+]

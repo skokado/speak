@@ -14,7 +14,10 @@
             ],
             "django": true,
             "autoStartBrowser": false,
-            "program": "${workspaceFolder}/manage.py"
+            "program": "${workspaceFolder}/manage.py",
+            "env": {
+                "DJANGO_SETTINGS_MODULE": "my_proj.settings.base"
+            }
         }
     ]
 }
