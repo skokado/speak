@@ -27,9 +27,9 @@ from api.v1.urls import router as v1_router  # noqa: E402
 
 api.add_router("/v1/", v1_router)
 
-# from api.v2.urls import router as v2_router  # noqa: E402
+from api.v2.urls import router as v2_router  # noqa: E402
 
-# api.add_router("/v2/", v2_router)
+api.add_router("/v2/", v2_router)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
