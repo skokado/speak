@@ -1,10 +1,16 @@
-# Kenro Django サンプル
-
-https://kenro.connpass.com/event/371009/
+# 堅牢.py #1
 
 堅牢.py #1
+https://kenro.connpass.com/event/371009/
 
-## セットアップ
+Title『モノリスDjangoにおける堅牢性の追求』
+
+[Google Slide](https://docs.google.com/presentation/d/e/2PACX-1vQrXQD8m1aiWdqSWWWBF-XxtGy1eH66FdSB4TubHwuR6C1rNv4-Fv_oQneXZX-hhECS-CjP8oZWky-H/pub?start=false&loop=false&delayms=3000)
+
+このディレクトリは、Django のモジュラモノリス構成のサンプル、
+および `dataclass` を併用して Django 設定値管理に型を活用するデモンストレーションの実装です。
+
+# How to run
 
 ```bash
 $ git clone https://github.com/skokado/speak.git
@@ -30,5 +36,3 @@ curl -X 'GET' \
 ```
 DEBUG: settings.cognito_app_client_id='dummy',settings.cognito_user_pool_id='dev_dummy_pool_id'
 ```
-
-これは `my_proj.settings.account.settings` における `dataclass` ベースによる設定値管理を実装するデモンストレーションです。
